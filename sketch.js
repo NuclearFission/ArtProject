@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(windowWidth, 400);
+ var canvas = createCanvas(windowWidth, 400);
+  canvas.parent('header');
 }
 
 shapeX = 300;
