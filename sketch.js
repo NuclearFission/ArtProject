@@ -5,7 +5,7 @@ function setup() {
 
 shapeX = 300;
 function draw() {
-  background(154, 0, 72);
+  background(74, 20, 140);
   strokeWeight(7);
   stroke(255, 0, 0);
   line(0, 200, windowWidth, 200);
