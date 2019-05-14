@@ -18,6 +18,7 @@ function draw() {
   quad(0, 200, 100, 0, 200, 200, 100, 400);
   quad(200, 200, 300, 0, 400, 200, 300, 400);
   strokeWeight(3);
+  textFont(myFont);
   textSize(120);
   text('ason', 400, 190);
   text('hite', 400, 300);
