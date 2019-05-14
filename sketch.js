@@ -3,6 +3,10 @@ function setup() {
   canvas.parent('header');
 }
 
+let myFont;
+function preload() {
+  myFont = loadFont('Orbitron-Regular.ttf');
+}
 shapeX = 300;
 function draw() {
   background(74, 20, 140);
